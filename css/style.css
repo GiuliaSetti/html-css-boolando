@@ -5,7 +5,9 @@
 }
 
 .debug *{
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .centered{
@@ -18,5 +20,68 @@
 /* header */
 
 /* ___________nav__________ */
+
+header{
+    background-color: rgb(255, 136, 0);
+
+    /* test */
+    width: 100%;
+    height: 70px;
+
+    position: fixed;
+    
+}
+
+.navbar{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* test */
+.navbar div{
+    width: 20%;
+}
+
+
+/* links */
+.links ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+li > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* logo */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.logo img{
+    height: 40px;
+}
+
+/* icone */
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+#borsa-spesa{
+    height: 25px;
+}
 
 
