@@ -6,10 +6,8 @@
 
 .debug *{
     border: solid 1px blue;
-    
-    
+      
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .centered{
@@ -28,16 +26,15 @@ header{
 
     /* test */
     width: 100%;
-    height: 70px;
+    height: 50px;
 
     position: fixed;
 
     z-index: 1;
-    
 }
 
 .navbar{
-    height: 70px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -57,7 +54,7 @@ header{
     gap: 15px;
 }
 
-li > a{
+.links li > a{
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -72,7 +69,7 @@ li > a{
 }
 
 .logo img{
-    height: 40px;
+    height: 30px;
 }
 
 /* icone */
@@ -84,8 +81,8 @@ li > a{
     gap: 8px;
 }
 
-#borsa-spesa{
-    height: 25px;
+.icons a>img{
+    height: 20px;
 }
 
 
@@ -93,12 +90,16 @@ li > a{
 
 /* ____________sezione____________ */
 
+section{
+    padding: 1em;
+}
+
 .cards-container{
-    margin-top: 70px;
+    padding-top: 30px;
 }
 
 .inner-row{
-    height: 550px;
+    height: 490px;
     
     display: flex;
     justify-content: center;
@@ -168,6 +169,7 @@ li > a{
     
     background-color: white;
     padding: 5px 10px;
+    border: transparent;
 }
 
 .heart:hover{
@@ -191,8 +193,48 @@ li > a{
     padding-right: 5px;
 }
 
+.ecoleft{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: green;
+}
 
 
-/* .prev-price{
-    text-decoration: line-through;
-} */
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footerbar{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* company info */
+
+.companyinfo ul{
+    list-style-type: none;
+    display: flex;   
+}
+
+.companyinfo li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+
+/* contatti */
+
+
+
+.footer-icons a > img{
+    height: 20px;
+}
+
+
