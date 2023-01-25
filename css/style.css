@@ -6,12 +6,14 @@
 
 .debug *{
     border: solid 1px blue;
-
+    
+    
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .centered{
-    max-width: 1000px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -94,13 +96,14 @@ li > a{
 .cards-container{
     margin-top: 70px;
 }
+
 .inner-row{
-    height: 500px;
+    height: 550px;
     
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
+    gap: 10px;
 }
 
 .card{
@@ -109,6 +112,8 @@ li > a{
 
     position: relative;
 }
+
+/* immagini */
 
 .card img{
     width: 100%;
@@ -123,7 +128,71 @@ li > a{
     right: 0;
 }
 
-
 .card:hover .hoverimg{
     display: inline-block;
 }
+
+/* badges */
+
+
+.badge{
+    color: white;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    padding: 5px 10px;
+}    
+
+
+.discount{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+
+    background-color: red;
+}
+
+.eco{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+
+    background-color: green;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.heart:hover{
+    color: red;
+}
+
+/* immagine info */
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.prev-price{
+    color: rgb(84, 83, 83);
+    text-decoration: line-through;
+}
+
+.price, .prev-price, .label{
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+
+
+/* .prev-price{
+    text-decoration: line-through;
+} */
