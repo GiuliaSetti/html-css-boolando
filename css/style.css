@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug *{
+    border: solid 1px blue;
+}
+
+.centered{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* header */
+
+/* ___________nav__________ */
+
+
